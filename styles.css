@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.post {
+  width: 460px;
+  border: 1px solid black;
+  margin: 5px auto;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.header,
+.icons {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  vertical-align: center;
+}
+
+.header {
+  padding: 5px;
+}
+
+.icons {
+  padding: 15px 10px 10px 10px;
+}
+.fa-brands,
+.fa-solid,
+.fa-regular {
+  font-size: 30px;
+}
+
+.photo {
+  background-image: url("https://i.ibb.co/216sQyRd/7-lugares-abandonados-en-Roma-lugares-espeluznantes-y-fascinantes.webp");
+  background-size: cover;
+  aspect-ratio: 1/1;
+}
+
+.text {
+  padding: 5px;
+  overflow: auto;
+}
